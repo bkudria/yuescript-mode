@@ -1,7 +1,7 @@
 ;;; yuescript.el --- Major mode for editing YueScript code
 ;;;
-;; Author: @GriffinSchneider, @k2052, @EmacsFodder
-;; Version: 20140803-0.1.0
+;; Author: @GriffinSchneider, @k2052, @EmacsFodder, @bkudria
+;; Version: 20241020-0.1.0
 ;; Package-Requires: ((cl-lib "0.5") (emacs "24"))
 ;;; Commentary:
 ;;

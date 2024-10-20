@@ -1,7 +1,7 @@
 ;;; yuescript-repl.el --- Major mode to interact with YueScript REPL
 ;;
-;; Author: @GriffinSchneider, @k2052, @EmacsFodder
-;; Version: 20140803-0.1.0
+;; Author: @GriffinSchneider, @k2052, @EmacsFodder, @bkudria
+;; Version: 20241020-0.1.0
 ;;
 ;;; Commentary:
 ;;

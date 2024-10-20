@@ -1,4 +1,8 @@
-# moonscript-mode
+# yuescript-mode
+
+Copied and modified from https://github.com/k2052/moonscript-mode
+
+## moonscript-mode
 
 ## Overview
 
