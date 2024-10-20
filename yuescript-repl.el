@@ -1,25 +1,25 @@
-;;; moonscript-repl.el --- Major mode to interact with MoonScript REPL
+;;; yuescript-repl.el --- Major mode to interact with YueScript REPL
 ;;
 ;; Author: @GriffinSchneider, @k2052, @EmacsFodder
 ;; Version: 20140803-0.1.0
 ;;
 ;;; Commentary:
 ;;
-;;  A basic major mode for MoonScript REPL
+;;  A basic major mode for YueScript REPL
 ;;
 ;;; License: MIT Licence
 ;;
 ;;; Code:
 
-(require 'moonscript)
+(require 'yuescript)
 
-(define-derived-mode moonscript-repl-mode comint-mode "MoonScript REPL"
-  "Major mode to interact with a MoonScript REPL.
+(define-derived-mode yuescript-repl-mode comint-mode "YueScript REPL"
+  "Major mode to interact with a YueScript REPL.
 
-See https://github.com/leafo/moonscript/wiki/Moonscriptrepl"
-  (set-syntax-table moonscript-mode-syntax-table)
-  (setq font-lock-defaults '(moonscript-font-lock-defaults)))
+See https://github.com/leafo/yuescript/wiki/Yuescriptrepl"
+  (set-syntax-table yuescript-mode-syntax-table)
+  (setq font-lock-defaults '(yuescript-font-lock-defaults)))
 
-(provide 'moonscript-repl)
+(provide 'yuescript-repl)
 
-;;; moonscript-repl.el ends here
+;;; yuescript-repl.el ends here
